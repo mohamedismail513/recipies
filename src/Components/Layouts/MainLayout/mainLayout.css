@@ -1,0 +1,35 @@
+.back{
+    transform: translateX(-250px);
+    transition: all 1s;
+}
+
+.move{
+    transform: translateX(0px);
+    transition: all 1s;
+}
+
+.outlet{
+    margin-left: 320px;
+}
+
+.main-nav{
+    height: 100vh;
+    background-color: #FFEDC1;
+    position: fixed;
+    z-index: 100000;
+}
+
+.nav-effect{
+    transform: translateX(-260px);
+    transition: all 1s;
+}
+
+.remove-nav-effect{
+    transform: translateX(0px);
+    transition: all 1s;
+}
+
+.main-container{
+    background-color: rgba(221, 206, 206, 0.562);
+    height: 100vh;
+}
